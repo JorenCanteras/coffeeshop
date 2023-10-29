@@ -1,0 +1,165 @@
+.shop{
+    background-color: #EAD7BB;
+}
+
+.heading{
+    padding-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .heading span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .heading h1{
+    font-size: 2rem;
+    color:black;
+  }
+
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+  }
+  
+  .shop-container .box{
+    flex: 1 1 10rem;
+    background: chocolate;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+  }
+  
+  .shop-container .box .box-img{
+    width: 150px;
+    height: 160px;
+    margin-top: -100px;
+  }
+  
+  .shop-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .stars{
+    margin: 1rem 0 0.1rem;
+  }
+  
+  .shop-container .box .stars .bx{
+    color:  gold;
+  }
+  
+  .shop-container .box h2{
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .shop-container .box span{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0.2rem 0 0.5rem;
+  }
+
+  .box .btn{
+    border: 2px solid #ebdbc8;
+    color: white;
+  }
+  
+  .box .btn:hover{
+    background: #ebdbc8;
+    color: black;
+  }
+
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+    background: #ebdbc8;
+    gap: 1.5rem;
+  }
+  
+  .about-img{
+    flex: 1 1 17rem;
+  }
+
+  .about-images{
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    width: 900px;
+    height: 500px;
+  }
+  
+  .about-text{
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 50px;
+    flex: 1 1 17rem;
+  }
+  
+  .about-text h2{
+    font-size: 1.2rem;
+    color: black;
+  }
+  
+  .about-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+  }
+  
+  .contact{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social a{
+    font-size:27px;
+    margin: 0.5rem;
+  }
+  
+  .social a .bx{
+    padding: 5px;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 50%;
+  }
+  
+  .social a .bx:hover{
+    background: chocolate;
+    text-decoration: none;
+  }
+  
+  .links{
+    margin: 1rem 0 1rem;
+  }
+  
+  .links a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  .links a:hover{
+    color: chocolate;
+  }
+  
+  .contact p{
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  

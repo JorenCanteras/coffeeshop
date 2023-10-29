@@ -1,0 +1,107 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: #BCA37F;
+    border-bottom-width: 1px; /* we can use bottom in middle to specific style what u want */
+    border-bottom-style: solid;
+    border-bottom-color: rgb(226, 225, 225) ;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    color: #113946;
+    
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px; /* para alam mo san hihinto to limit your content */
+    display: flex;
+    align-items: center;
+    animation: slideLeft .6s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.search-bar{
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px
+
+  }
+
+.right-section{
+    width: 400px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.right-section-text{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #113946;
+    animation: slideLeft .6s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.right-section-text:hover{
+    cursor: pointer;
+    color: chocolate;
+    
+}
+/* keyframes animation */
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }    
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+    
+}
+
+
